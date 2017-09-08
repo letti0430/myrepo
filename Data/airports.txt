@@ -9,7 +9,6 @@ IATA/FAA 	3-letter FAA code, for airports located in Country "United States of A
 3-letter IATA code, for all other airports.
 Blank if not assigned.
 ICAO 	4-letter ICAO code.
-Blank if not assigned.
 Latitude 	Decimal degrees, usually to six significant digits. Negative is South, positive is North.
 Longitude 	Decimal degrees, usually to six significant digits. Negative is West, positive is East.
 Altitude 	In feet.

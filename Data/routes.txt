@@ -1,4 +1,4 @@
-#+TITLE: OpenFlights.org routes data key
+#+TITLE: CHANGING THE LINE
 
 See [[http://openflights.org/data.html][OpenFlights.org/data]] and [[http://openflights.org/blog/2009/07/15/airline-route-maps-launched-metric-distances-available/][blog entry]] for details.
 
@@ -16,10 +16,10 @@ information:
 | Destination airport    | 3-letter (IATA) or 4-letter (ICAO) code of the destination airport.                                         |
 | Destination airport ID | Unique OpenFlights identifier for destination airport (see Airport)                                         |
 | Codeshare              | "Y" if this flight is a codeshare (that is, not operated by Airline, but another carrier), empty otherwise. |
-| Stops                  | Number of stops on this flight ("0" for direct)                                                             |
-| Equipment              | 3-letter codes for plane type(s) generally used on this flight, separated by spaces                         |
+| Stops                  | Number of stops on this flight ("0" for direct)                                                             |                   |
 |------------------------+-------------------------------------------------------------------------------------------------------------|
 
+ADDING A LINE
 The data is ISO 8859-1 (Latin-1) encoded. The special value \N is used
 for "NULL" to indicate that no value is available, and is understood
 automatically by MySQL if imported.
